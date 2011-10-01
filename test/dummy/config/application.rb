@@ -3,6 +3,8 @@ require File.expand_path('../boot', __FILE__)
 require 'rails/all'
 
 Bundler.require
+
+require "jquery-rails"
 require "nextday-engine"
 
 module Dummy
