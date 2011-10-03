@@ -9,15 +9,15 @@ Gem::Specification.new do |s|
   s.version     = NextdayEngine::VERSION
   s.authors     = ["Robert Williams"]
   s.email       = ["rob@r-williams.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of NextdayEngine."
+  s.homepage    = "http://www.stinkyinkshop.co.uk"
+  s.summary     = ""
   s.description = "TODO: Description of NextdayEngine."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.1.0"
-  s.add_dependency "nextday", "~> 0.0.1"
+  s.add_dependency "nextday", "~> 0.1.0"
   s.add_dependency "jquery-rails"
 
   s.add_development_dependency "sqlite3"

@@ -6,4 +6,5 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require nextday-engine
 //= require_tree .
