@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    nextday-engine (0.0.1)
+    nextday-engine (0.0.2)
       jquery-rails
       nextday (~> 0.1.0)
       rails (~> 3.1.0)
