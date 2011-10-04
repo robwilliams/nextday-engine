@@ -1,7 +1,7 @@
 module NextdaysHelper
   
   def despatch_day
-    Time.now.despatch_day
+    Time.zone.now.despatch_day
   end
 
   def despatch_day_in_english
@@ -9,7 +9,7 @@ module NextdaysHelper
   end
 
   def delivery_day
-    Time.now.delivery_day
+    Time.zone.now.delivery_day
   end
 
   def delivery_day_in_english
@@ -17,6 +17,6 @@ module NextdaysHelper
   end
   
   def cut_off_time
-    Time.now.cut_off_time
+    Time.zone.now.cut_off_time
   end
 end
