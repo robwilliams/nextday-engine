@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Robert Williams"]
   s.email       = ["rob@r-williams.com"]
   s.homepage    = "http://www.stinkyinkshop.co.uk"
-  s.summary     = ""
-  s.description = "TODO: Description of NextdayEngine."
+  s.summary     = "Exposes the next day gem as a rails engine"
+  s.description = "Exposes the next day gem as a rails engine, Provides /nextday.json, a few helpers and a javascript module."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
